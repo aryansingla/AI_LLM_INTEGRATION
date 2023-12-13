@@ -3,6 +3,7 @@ import { Stack } from "@mui/system";
 import React from "react";
 import Title from "../components/Title";
 import { section3Content } from "../utils/content";
+import introvideo from "../assets/images/section3/introvideo.mp4"
 
 const { title, ITEMS } = section3Content;
 
@@ -15,21 +16,11 @@ const Section3 = () => {
         </Title>
       </Container>
 
-      <Grid container spacing={5} sx={{ mt: 4 }} justifyContent="center">
-        {ITEMS.map(({ name, logo }) => (
-          <Grid item xs={4} md={3} lg={2.4} key={name}>
-            <Stack alignItems="center">
-              <img
-                src={logo}
-                style={{ height: "120px", objectFit: "contain" }}
-              />
-
-              <Typography variant="body2" color="text.secondary">
-                {name}
-              </Typography>
-            </Stack>
-          </Grid>
-        ))}
+      <Grid container sx={{ mt: 4 }} justifyContent="center">
+        <video autoPlay loop muted sx={{ width: "50%"}}>
+          <source src={introvideo} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </Grid>
     </Container>
   );

@@ -43,7 +43,7 @@ const ServiceCard = ({ title, subtitle, image }) => {
         />
 
         <OutlinedButton arrow fit>
-          Learn more
+          Try Now 
         </OutlinedButton>
       </Stack>
     </Box>

@@ -83,28 +83,33 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 // Navbar
 import Logo from "../assets/images/logo.svg";
+import GitHub from "@mui/icons-material/GitHub";
 
+import FormatColorTextIcon from '@mui/icons-material/FormatColorText';
+import AllInclusiveIcon from '@mui/icons-material/AllInclusive';
+import CodeIcon from '@mui/icons-material/Code';
+import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 export const section1Content = {
   MainBG,
   TreesImage,
   CliffImage,
   HorseImage,
   ShootingStarImage,
-  title: "One-stop access",
-  subtitle: "to decentralized finance",
+  title: "Your writing assistant",
+  subtitle: "Powerful Creative.",
 };
 
 export const section2Content = {
   items: [
-    { counter: 345, subtitle: "Liquidity sources" },
-    { counter: 345, before: "$", after: "B+", subtitle: "Total volume" },
-    { counter: 4.4, after: "M+", subtitle: "Total wallets", decimals: true },
-    { counter: 28.7, after: "M+", subtitle: "Total Trades", decimals: true },
+    { counter: 345, subtitle: "Generate text quickly and easily",icons: FormatColorTextIcon },
+    { counter: 345, before: "$", after: "B+", subtitle: "Use a powerful artificial intelligence",icons: AllInclusiveIcon },
+    { counter: 4.4, after: "M+", subtitle: "Easy to use online platform", decimals: true,icons: CodeIcon },
+    { counter: 28.7, after: "M+", subtitle: "Rework high quality contents within seconds", decimals: true,icons: ThumbUpIcon },
   ],
 };
 
 export const section3Content = {
-  title: "Optimize your trades across hundreds of DEXes on multiple networks",
+  title: "Artificial intelligence assists you in generating, summarizing and rewriting your texts.",
   ITEMS: [
     { logo: EthImg, name: "Ethereum" },
     { logo: BscImg, name: "BNB Chain" },
@@ -126,39 +131,6 @@ export const section4Content = {
       "1inch instantly analyzes thousands of quotes and fees across multiple DEXes to provide users with the best rates.",
     image: NewsImg,
   },
-  bottom: {
-    title: "1inch DeFi Wallet",
-    TABS: [
-      {
-        name: "Buy",
-        image: Phone1Img,
-        subtitle:
-          "Buy crypto with your bank card using our partner fiat gateway providers.",
-      },
-      {
-        name: "Store",
-        image: Phone3Img,
-        subtitle:
-          "Your crypto is protected with the most sophisticated security measures.",
-      },
-      {
-        name: "Transfer",
-        image: Phone5Img,
-        subtitle: "Transfer crypto in multiple blockchain networks.",
-      },
-      {
-        name: "Swap",
-        image: Phone4Img,
-        subtitle: "Swap any amount of tokens at the best rates.",
-      },
-      {
-        name: "Stake",
-        image: Phone2Img,
-        subtitle:
-          "Stake 1INCH to participate in network governance and be eligible for gas costs refunds.",
-      },
-    ],
-  },
 };
 
 export const section5Content = {
@@ -170,36 +142,31 @@ export const section5Content = {
 };
 
 export const section6Content = {
-  title: "1inch products",
+  title: "1inch Services",
   ITEMS: [
     {
-      title: "Aggregation Protocol",
+      title: "Text to Image",
       subtitle:
         "Liquidity aggregation from multiple DEXes to ensure the best swap rates.",
-      image: Sec6Image1,
+      image: Sec6Image5,
     },
     {
-      title: "Limit Order Protocol",
+      title: "Sentiment Analysis",
       subtitle:
         "The most innovative and flexible limit order functionality in DeFi.",
       image: Sec6Image2,
     },
     {
-      title: "Liquidity Protocol",
+      title: "Text Completion",
       subtitle:
-        "A next-generation AMM that offers capital efficiency to liquidity providers.",
+        "Random Text Completion (Assumption)",
       image: Sec6Image3,
     },
     {
-      title: "1inch Earn",
+      title: "Summary Generator",
       subtitle:
         "A derivative-based product offering liquidity providers attractive APYs.",
       image: Sec6Image4,
-    },
-    {
-      title: "1inch RabbitHole",
-      subtitle: "A feature that protects MetaMask users from sandwich attacks.",
-      image: Sec6Image5,
     },
   ],
 };
@@ -224,12 +191,10 @@ export const section7Content = {
 };
 
 export const section8Content = {
-  title: "Your decentralized finance shield",
+  title: "Using the best NLP Models",
   subtitle:
-    "1inch uses sophisticated security measures to protect users' funds in swaps on other DeFi protocols",
-  caption:
-    "1inch is the most audited project in DeFi. See a list of the most important smart contract audits here.",
-  ShieldImage,
+    "We use the best market-leading language models and even creating our own..",
+   ShieldImage,
 };
 
 export const section9Content = {
@@ -338,38 +303,11 @@ export const Section11Content = {
 };
 
 export const footerContent = {
-  protocols: {
-    title: "Protocols",
-    links: [
-      { title: "Liquidity Protocol" },
-      { title: "Aggregation Protocol" },
-      { title: "Limit Order Protocol" },
-    ],
-  },
-  governance: {
-    title: "Governance",
-    links: [
-      { title: "1inch DAO" },
-      { title: "1INCH token" },
-      { title: "Forum" },
-    ],
-  },
-  support: {
-    title: "Support",
-    links: [
-      { title: "Help center" },
-      { title: "Press room" },
-      { title: "Bug report", subtitle: "by Hacker one" },
-      { title: "Contacts" },
-    ],
-  },
   developers: {
     title: "Governance",
     links: [
       { title: "Documentation" },
       { title: "GitHub" },
-      { title: "Audit" },
-      { title: "Bug bounty" },
     ],
   },
   subscribe: {
@@ -378,7 +316,6 @@ export const footerContent = {
   },
   socials: [
     { icon: BookIcon },
-    { icon: RedditIcon },
     { icon: TwitterIcon },
     { icon: ChatIcon },
     { icon: TelegramIcon },

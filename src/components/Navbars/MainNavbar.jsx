@@ -72,34 +72,24 @@ const Navbar = () => {
             <Stack
               direction="row"
               alignItems="center"
-              justifyContent="center"
+              justifyContent="end"
               spacing={6}
               sx={{ flex: 1 }}
               flexWrap="wrap"
             >
               <LinkButton>
-                <Typography variant="body2">Products</Typography>
+                <Typography variant="body2">Pricing</Typography>
                 <KeyboardArrowDownIcon fontSize="small" />
               </LinkButton>
 
               <LinkButton>
-                <Typography variant="body2">Developers</Typography>
-                <KeyboardArrowDownIcon fontSize="small" />
-              </LinkButton>
-
-              <LinkButton>
-                <Typography variant="body2">Governance</Typography>
-                <KeyboardArrowDownIcon fontSize="small" />
-              </LinkButton>
-
-              <LinkButton>
-                <Typography variant="body2">About</Typography>
-                <KeyboardArrowDownIcon fontSize="small" />
-              </LinkButton>
-
-              <LinkButton spacing={0.5}>
                 <Typography variant="body2">Blog</Typography>
-                <CallMadeIcon sx={{ fontSize: 12 }} />
+                <KeyboardArrowDownIcon fontSize="small" />
+              </LinkButton>
+
+              <LinkButton>
+                <Typography variant="body2">Contact</Typography>
+                <KeyboardArrowDownIcon fontSize="small" />
               </LinkButton>
             </Stack>
           )}

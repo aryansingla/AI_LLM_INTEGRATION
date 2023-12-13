@@ -5,7 +5,7 @@ import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 const LaunchButton = ({ sx = {}, ...props }) => {
   return (
     <Button variant="contained" sx={{ borderRadius: 4, ...sx }} {...props}>
-      Launch dApp
+      Try Now
       <KeyboardArrowRightIcon />
     </Button>
   );
