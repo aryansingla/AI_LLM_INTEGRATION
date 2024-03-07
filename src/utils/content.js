@@ -163,7 +163,7 @@ export const section6Content = {
       subtitle:
         "Random Text Completion (Assumption)",
       image: Sec6Image3,
-      link :'/'
+      link :'/swap'
     },
     {
       title: "Summary Generator",
