@@ -2,8 +2,11 @@ import { Box, Stack, Typography } from "@mui/material";
 import React from "react";
 import OutlinedButton from "../Buttons/OutlinedButton";
 import Title from "../Title";
-
-const ServiceCard = ({ title, subtitle, image }) => {
+const ServiceCard = ({ title, subtitle, image , link }) => {
+  const handleClick = () => {
+    // Redirect to the specified link
+    window.location.href = link;
+  };
   return (
     <Box
       sx={{
@@ -42,7 +45,7 @@ const ServiceCard = ({ title, subtitle, image }) => {
           }}
         />
 
-        <OutlinedButton arrow fit>
+        <OutlinedButton arrow fit onClick={handleClick}> 
           Try Now 
         </OutlinedButton>
       </Stack>

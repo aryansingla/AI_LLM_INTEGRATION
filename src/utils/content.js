@@ -149,24 +149,28 @@ export const section6Content = {
       subtitle:
         "Liquidity aggregation from multiple DEXes to ensure the best swap rates.",
       image: Sec6Image5,
+      link : '/image'
     },
     {
       title: "Sentiment Analysis",
       subtitle:
         "The most innovative and flexible limit order functionality in DeFi.",
       image: Sec6Image2,
+      link : '/sentiment'
     },
     {
       title: "Text Completion",
       subtitle:
         "Random Text Completion (Assumption)",
       image: Sec6Image3,
+      link :'/'
     },
     {
       title: "Summary Generator",
       subtitle:
         "A derivative-based product offering liquidity providers attractive APYs.",
       image: Sec6Image4,
+      link :'/'
     },
   ],
 };
