@@ -126,9 +126,9 @@ export const section3Content = {
 
 export const section4Content = {
   top: {
-    title: "Never-ending liquidity",
+    title: "Never-ending Technology",
     subtitle:
-      "1inch instantly analyzes thousands of quotes and fees across multiple DEXes to provide users with the best rates.",
+      "Always use best out there.",
     image: NewsImg,
   },
 };
@@ -158,19 +158,19 @@ export const section6Content = {
       image: Sec6Image2,
       link : '/sentiment'
     },
+    // {
+    //   title: "Text Completion",
+    //   subtitle:
+    //     "Random Text Completion (Assumption)",
+    //   image: Sec6Image3,
+    //   link :'/swap'
+    // },
     {
-      title: "Text Completion",
-      subtitle:
-        "Random Text Completion (Assumption)",
-      image: Sec6Image3,
-      link :'/swap'
-    },
-    {
-      title: "Summary Generator",
+      title: "SQL Query Generator",
       subtitle:
         "A derivative-based product offering liquidity providers attractive APYs.",
       image: Sec6Image4,
-      link :'/'
+      link :'/sql-query-generator'
     },
   ],
 };
